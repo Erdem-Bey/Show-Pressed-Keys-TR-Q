@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IniFile">
+      <UniqueIdentifier>{a2b17bfb-3a83-419f-8766-508620b9d3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{18231bea-9b73-4d7c-a97d-e9bf45ca0d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{5a004ea5-d67d-4737-ada8-6bf7585c5382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\MainWindow">
+      <UniqueIdentifier>{910214db-200c-4a73-aa8c-6a86d4e16624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\MainWindow">
+      <UniqueIdentifier>{c4b591c7-2fef-49d4-899c-cfedb928717a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{6cde2bdf-daf9-463f-bf60-effcb31389d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings\MainWindow">
+      <UniqueIdentifier>{fb156142-cf0a-48e5-aea0-6b143a9233a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings\SettingsWindow">
+      <UniqueIdentifier>{4f8d03a3-0fa0-49e8-ba64-c9451f405b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings\AboutWindow">
+      <UniqueIdentifier>{bae28e0c-12e1-4886-a116-866433757b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{ecb19e70-ae01-4bd8-a082-84a68fbd3efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\CommandLine">
+      <UniqueIdentifier>{c0df143b-f4a9-4189-b547-41b14ed597fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{8ec7f1c9-6719-44c5-820f-3957b6afebd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\SettingsWindow">
+      <UniqueIdentifier>{97eeff98-3eb9-4cf9-b28a-95153f706a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\MainWindow">
+      <UniqueIdentifier>{f7e413c4-7676-42ef-a4e5-f1da91e7a3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\%28%28WindowClasses%29%29">
+      <UniqueIdentifier>{7840ea2d-83b6-49db-84cf-4f414d934d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\AboutWindow">
+      <UniqueIdentifier>{123489ee-79de-4a3a-85cc-09de5b743136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\UsageWindow">
+      <UniqueIdentifier>{30ca311b-d09b-4df6-b2aa-3b0ed8dca0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings\UsageWindow">
+      <UniqueIdentifier>{a8488889-bb79-4269-b356-6e28e491a0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\SettingsWindow">
+      <UniqueIdentifier>{48b3d475-12cf-41cb-8307-0cd4101be793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\SettingsWindow">
+      <UniqueIdentifier>{c0015dd5-187a-4bc8-9a35-c9549d0abc96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings">
+      <UniqueIdentifier>{34c5f589-b26e-4c6d-84a0-aab23990252f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\MainWindow">
+      <UniqueIdentifier>{b81b7e51-a639-4aa2-afc0-9c048c3cd2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\SettingsWindow">
+      <UniqueIdentifier>{91ca0edb-e9b3-497c-8450-1dac68406b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\AboutWindow">
+      <UniqueIdentifier>{999459be-09d3-4c88-8a17-d777e72801a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\UsageWindow">
+      <UniqueIdentifier>{8a88bb11-eb50-493f-8f85-16f228e9c910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings\Program">
+      <UniqueIdentifier>{4ed527d1-5da6-4459-854d-e2e6d117a517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Graphics">
+      <UniqueIdentifier>{a7c0122c-2141-4341-b375-45be958147ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile\IniEntry.cpp">
+      <Filter>IniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile\IniException.cpp">
+      <Filter>IniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile\IniFile.cpp">
+      <Filter>IniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile\IniGarbage.cpp">
+      <Filter>IniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile\IniHeader.cpp">
+      <Filter>IniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFile\IniLine.cpp">
+      <Filter>IniFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\Controller.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings\Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\MainWindow\C_MainWindow.cpp">
+      <Filter>Controller\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\MainWindow\M_MainWindow.cpp">
+      <Filter>Model\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings\AboutWindow\S_AboutWindow.cpp">
+      <Filter>Settings\AboutWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings\MainWindow\S_MainWindow.cpp">
+      <Filter>Settings\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings\SettingsWindow\S_SettingsWindow.cpp">
+      <Filter>Settings\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\OperatorOverloads.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\CommandLine\C_CommandLine.cpp">
+      <Filter>Controller\CommandLine</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\StringOperations.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\BaseWindowClass.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\Button.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\Calendar.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\CheckBox.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\ComboBox.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\Edit.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\Hyperlink.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\ListBox.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\ListView.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\MainWindow.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\MonthCalendar.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\ProgressBar.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\Radio.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\Static.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\StatusBar.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\SystemTrayIcon.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\Tab.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\Timer.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\TrackBar.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\UpDown.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\((WindowClasses))\Utility.cpp">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\AboutWindow\G_About.cpp">
+      <Filter>Gui\AboutWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainWindow\G_Main.cpp">
+      <Filter>Gui\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainWindow\G_Main_Children.cpp">
+      <Filter>Gui\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainWindow\G_Main_Events.cpp">
+      <Filter>Gui\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainWindow\G_Main_Menu.cpp">
+      <Filter>Gui\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainWindow\G_Main_Messages.cpp">
+      <Filter>Gui\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\SettingsWindow\G_Settings.cpp">
+      <Filter>Gui\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\SettingsWindow\G_Settings_Events.cpp">
+      <Filter>Gui\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Gui.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\UsageWindow\G_Usage.cpp">
+      <Filter>Gui\UsageWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings\UsageWindow\S_UsageWindow.cpp">
+      <Filter>Settings\UsageWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainWindow\G_Main_Paint.cpp">
+      <Filter>Gui\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\SettingsWindow\G_Settings_Panel_00.cpp">
+      <Filter>Gui\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\SettingsWindow\G_Settings_Panel_01.cpp">
+      <Filter>Gui\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\SettingsWindow\M_SettingsWindow.cpp">
+      <Filter>Model\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\SettingsWindow\G_Settings_Messages.cpp">
+      <Filter>Gui\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\SettingsWindow\C_SettingsWindow.cpp">
+      <Filter>Controller\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\SettingsWindow\G_Settings_Paint.cpp">
+      <Filter>Gui\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\SettingsWindow\G_Settings_Children.cpp">
+      <Filter>Gui\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\AboutWindow\G_About_Children.cpp">
+      <Filter>Gui\AboutWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\Strings.cpp">
+      <Filter>Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\StringInALanguage.cpp">
+      <Filter>Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings\Program\S_Program.cpp">
+      <Filter>Settings\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\MultiLanguageString.cpp">
+      <Filter>Strings</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\AboutWindow\L_AboutWindow.cpp">
+      <Filter>Strings\AboutWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\MainWindow\L_MainWindow.cpp">
+      <Filter>Strings\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\SettingsWindow\L_SettingsWindow.cpp">
+      <Filter>Strings\SettingsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\UsageWindow\L_UsageWindow.cpp">
+      <Filter>Strings\UsageWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Graphics\TextBlock.cpp">
+      <Filter>Gui\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Graphics\LinePath.cpp">
+      <Filter>Gui\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\SerialPort.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Crc8.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Crc32.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\PackageInformation.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Numeric.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile\IniEntry.h">
+      <Filter>IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile\IniException.h">
+      <Filter>IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile\IniFile.h">
+      <Filter>IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile\IniGarbage.h">
+      <Filter>IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile\IniHeader.h">
+      <Filter>IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFile\IniLine.h">
+      <Filter>IniFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\Controller.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\MainWindow\C_MainWindow.h">
+      <Filter>Controller\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\MainWindow\M_MainWindow.h">
+      <Filter>Model\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\AboutWindow\S_AboutWindow.h">
+      <Filter>Settings\AboutWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\MainWindow\S_MainWindow.h">
+      <Filter>Settings\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\SettingsWindow\S_SettingsWindow.h">
+      <Filter>Settings\SettingsWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\OperatorOverloads.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\CommandLine\C_CommandLine.h">
+      <Filter>Controller\CommandLine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\StringOperations.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CharTraits_CaseInsensitive.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Allocator_Standard.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Allocator_Stack.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Allocator_Stack_Block.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\BaseWindowClass.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\Button.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\Calendar.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\CheckBox.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\ComboBox.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\Edit.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\Hyperlink.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\ListBox.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\ListView.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\MainWindow.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\MonthCalendar.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\ProgressBar.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\Radio.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\Static.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\StatusBar.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\SystemTrayIcon.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\Tab.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\Timer.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\TrackBar.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\UpDown.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\((WindowClasses))\Utility.h">
+      <Filter>Gui\%28%28WindowClasses%29%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\AboutWindow\G_About.h">
+      <Filter>Gui\AboutWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\MainWindow\G_Main.h">
+      <Filter>Gui\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\SettingsWindow\G_Settings.h">
+      <Filter>Gui\SettingsWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Gui.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\UsageWindow\G_Usage.h">
+      <Filter>Gui\UsageWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\UsageWindow\S_UsageWindow.h">
+      <Filter>Settings\UsageWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\SettingsWindow\M_SettingsWindow.h">
+      <Filter>Model\SettingsWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\SettingsWindow\C_SettingsWindow.h">
+      <Filter>Controller\SettingsWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\Strings.h">
+      <Filter>Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\StringInALanguage.h">
+      <Filter>Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings\Program\S_Program.h">
+      <Filter>Settings\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\MultiLanguageString.h">
+      <Filter>Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\AboutWindow\L_AboutWindow.h">
+      <Filter>Strings\AboutWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\MainWindow\L_MainWindow.h">
+      <Filter>Strings\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\SettingsWindow\L_SettingsWindow.h">
+      <Filter>Strings\SettingsWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\UsageWindow\L_UsageWindow.h">
+      <Filter>Strings\UsageWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h" />
+    <ClInclude Include="Gui\Graphics\TextBlock.h">
+      <Filter>Gui\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\Graphics\LinePath.h">
+      <Filter>Gui\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\SerialPort.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\SerialPortListener.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Crc8.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Crc32.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\PackageInformation.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Numeric.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="USB To GPIO Converter.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
